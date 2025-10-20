@@ -1,6 +1,6 @@
 # 🇻🇳 Vietnam Hybrid Travel Assistant
 
-> **Advanced AI travel recommendation system combining vector search, knowledge graphs, and conversational AI**
+> **Hybrid Retrieval system combining vector search, knowledge graphs, and conversational AI**
 
 [![Status](https://img.shields.io/badge/status-production--ready-green)]()
 [![Score](https://img.shields.io/badge/score-100%2F100-brightgreen)]()
@@ -491,4 +491,5 @@ clear      # Reset memory
 summary    # System stats
 exit       # Quit
 ```
+
 
