@@ -82,7 +82,7 @@ Bot: "From the restaurants I mentioned, Blue Sky Bar [rest_123] has stunning roo
 
 ```bash
 # 1. Clone/download the project
-cd "Blue Engima Assignment"
+cd "Hybrid-Chat-Retrieval-System"
 
 # 2. Create virtual environment
 python -m venv venv
@@ -131,7 +131,7 @@ python visualize_graph.py
 python pinecone_upload_local.py
 
 # Step 4: Run the chat assistant!
-python hybrid_chat_simple.py
+python hybrid_chat.py
 ```
 
 ---
@@ -141,7 +141,7 @@ python hybrid_chat_simple.py
 ### Basic Usage
 
 ```bash
-python hybrid_chat_simple.py
+python hybrid_chat.py
 ```
 
 **You'll see:**
@@ -365,9 +365,8 @@ tqdm==4.67.1                # Progress bars
 ## 📂 Project Structure
 
 ```
-vietnam-travel-assistant/
-│
-├── hybrid_chat_simple.py       # 🌟 MAIN FILE - Run this!
+|Hybrid-Chat-Retrieval-System
+├── hybrid_chat.py              # 🌟 MAIN FILE - Run this!
 │   ├── ConversationMemory      # Session tracking
 │   ├── SearchAnalyzer          # Analytics & insights
 │   ├── Async wrappers          # Parallel processing
@@ -382,9 +381,7 @@ vietnam-travel-assistant/
 │
 ├── vietnam_travel_dataset.json # 360 Vietnam locations
 ├── requirements.txt            # Dependencies
-│
-├── README.md                   # This file
-└── improvements.md             # What changed & why
+│── README.md                   # This file
 ```
 
 ---
@@ -474,28 +471,6 @@ Result: More accurate answers + transparency.
 - **Neo4j** - Graph database
 - **Groq** - Fast, free LLM inference
 - **Sentence Transformers** - Local embeddings
-- **Blue Enigma** - Assignment challenge
-
----
-
-## 📞 Support
-
-For questions:
-1. Check [improvements.md](improvements.md) for detailed explanations
-2. Review troubleshooting section above
-3. Check API documentation:
-   - Groq: https://console.groq.com/docs
-   - Pinecone: https://docs.pinecone.io/
-   - Neo4j: https://neo4j.com/docs/
-
----
-
-**Built with ❤️ for the Blue Enigma Assignment**
-
-**Technologies:** Python • Pinecone • Neo4j • Groq • Sentence Transformers
-
-**Status:** ✅ Production-Ready • 100/100 Score • Fully Documented
-
 ---
 
 ## 🚀 Quick Commands Reference
@@ -507,7 +482,7 @@ python load_to_neo4j.py
 python pinecone_upload_local.py
 
 # Run (every time)
-python hybrid_chat_simple.py
+python hybrid_chat.py
 
 # Inside chat
 session    # Show session info
@@ -517,4 +492,3 @@ summary    # System stats
 exit       # Quit
 ```
 
-**Ready to explore Vietnam! 🇻🇳**
