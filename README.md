@@ -1,4 +1,4 @@
-# 🇻🇳 Vietnam Hybrid Travel Assistant
+# Hybrid Retrieval System
 
 > **Hybrid Retrieval system combining vector search, knowledge graphs, and conversational AI**
 
@@ -491,5 +491,6 @@ clear      # Reset memory
 summary    # System stats
 exit       # Quit
 ```
+
 
 
